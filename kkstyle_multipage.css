@@ -1,0 +1,57 @@
+
+* {
+    padding: 0px;
+    margin: 0px;    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 16px 32px;
+    text-align: center;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+.button1:hover {
+    background-color: #e7e7e7;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
