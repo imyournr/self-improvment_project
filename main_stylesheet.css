@@ -70,6 +70,18 @@
         }
         p {
             margin: 20px;
-
+        }
+        
+        footer {
+            text-align: center;
+            background-color: white;
+            width: auto;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .name {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 32px;
+            font-weight: bold;
         }
 
